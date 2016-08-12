@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+    <artifactId>adm-shaded</artifactId>
+    <version>1.11.1</version>
+    <packaging>jar</packaging>
+
+    <name>basistech_rosetteLanguageIdentifier_common_lib</name>
+    <description>rosette language identifier jar</description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.icu</groupId>
+            <artifactId>icu4j</artifactId>
+            <version>53.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>args4j</groupId>
+            <artifactId>args4j</artifactId>
+            <version>2.0.26</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageidentifier</groupId>
+            <artifactId>common-api</artifactId>
+            <version>34.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+            <artifactId>common-lib</artifactId>
+            <version>34.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+            <artifactId>rli-je-shaded</artifactId>
+            <version>7.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+            <artifactId>crli-je-cmd-classpath</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
