@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.basistech.rosetteNameIndexer</groupId>
+    <artifactId>btrlpnc</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>bt-rni-plugin</name>
+    <description>Basis</description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+            <artifactId>common-api</artifactId>
+            <version>34.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteLanguageIdentifier</groupId>
+            <artifactId>common-lib</artifactId>
+            <version>34.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.icu</groupId>
+            <artifactId>icu4j</artifactId>
+            <version>53.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.basistech.rosetteNameIndexer</groupId>
+            <artifactId>bt-rni-solr4x-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteNameIndexer</groupId>
+            <artifactId>btrlp</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteNameIndexer</groupId>
+            <artifactId>btutil</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.basistech.rosetteNameIndexer</groupId>
+            <artifactId>bt-rni-solr4x-plugins</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
